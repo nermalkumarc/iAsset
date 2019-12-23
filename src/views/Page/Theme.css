@@ -1,0 +1,61 @@
+tbody+thead {
+	display: none;
+}
+
+.dataTables_filter, .pagination {
+	float: right;
+}
+
+thead {
+	background-color: #20a8d8;
+	color: white;
+}
+
+.float {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 55px;
+	right: 15px;
+	background-color: #20a8d8;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 1;
+}
+
+.my-float {
+	margin-top: 6px;
+}
+
+.card-body {
+	padding: 7.5px 20px 0px 20px;
+}
+
+button {
+	border-style: none;
+}
+
+.pagination {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.dataTables_info {
+	font-weight: bold;
+}
+
+.Validationstyle{
+	color:red;
+}
+
+/* .react-datepicker__input-container {
+    position: relative !important;
+    display: inline-block !important;
+	margin-left: -120px !important;
+	border-color: #900;
+	
+} */
+
+table td:nth-child(1){ display:none;} 
